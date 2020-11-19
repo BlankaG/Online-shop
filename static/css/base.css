@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/image-fashion.jpg') no-repeat center center fixed;
+    background: url('/media/perfume29.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgb(243, 152, 195);
     color: white;
     min-width: 260px;
 }
@@ -89,5 +89,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 125px;
+    }
+    
+    body {
+        height: calc(100vh - 125px);
     }
 }

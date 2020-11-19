@@ -1,6 +1,5 @@
 {% load static %}
 
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,7 +45,7 @@
     <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex ">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
             <a href="{% url 'home'%}" class="nav-link main-logo-link">
-               <h2 class="logo-font text-black my-0"><strong>Fabulous</strong></h2>
+               <h2 class="logo-font text-black my-0"><strong>Fabulous Fragrances</strong></h2>
             </a>
         </div>
 
@@ -113,12 +112,7 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-        <div id="delivery-banner" class="row text-center">
-            <div class="col text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_shipping_threshold }}!</h4>                
-            </div>            
-        </div>
-  </header>
+      </header>
 
     {% if messages %}
     <div class="message-container"></div>
