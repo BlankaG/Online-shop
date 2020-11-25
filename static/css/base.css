@@ -64,6 +64,10 @@ body {
     border: 1px solid black !important;
 }
 
+.header-container {
+    margin-bottom: 150px;
+
+}
 
 .overlay {
 	height: 100%;
@@ -75,7 +79,19 @@ body {
 	z-index: -1;
 }
 
+.card:hover {
+    animation-name: card-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes card-zoom {
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.0);
+    }
 * -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
