@@ -93,7 +93,7 @@ body {
     to{
         transform: scale(1.0);
     }
-* -------------------------------- Media Queries */
+/* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
