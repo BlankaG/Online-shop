@@ -26,7 +26,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fabulous-fragrances.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['fabulous.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -113,7 +113,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'fabulous-fragrances.wsgi.application'
+WSGI_APPLICATION = 'fabulous.wsgi.application'
 
 
 # Database
