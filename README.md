@@ -42,4 +42,28 @@ Products can be sort by price (low to high, high to low), by category ( A to Z, 
 User can log in and log out. Can register with an email. User can see their Profile and Order History. 
 Use of Stripe payment is used for secure checkout.
 
+### Testing
 
+The website was tested throghout the process. There is few screenshots added as the test result passed.
+With the payment test the stripe testing card was used (4242 4242 4242 4242     04/24  424 424242 ) The secure payment was accepted and shows the user the order and how much he would be charged. Confirmation of orders in admin, please see attached screenshots.
+With the confirmation email when trying to register, the confirmation is shown in the terminal window as well as the confirmation of order. Please see attached screenshot.
+
+
+### Credits
+
+- [Bootstrap Themes ](https://startbootstrap.com/themes/)
+- [Free-fronted CSS Cards](https://freefrontend.com/css-cards/)
+- [w3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- [Code Institute solutions](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?activate_block_id=block-v1%3ACodeInstitute%2BFSF_102%2BQ1_2020%2Btype%40sequential%2Bblock%40d3188bf68530497aa5fba55d07a9d7d7)
+- [Code Institute materials](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/course/)
+
+### Media
+
+
+- [free-stock photo website](https://www.pexels.com/search/restaurant/)
+
+### Acknowledgements
+
+- My Mentor for his feedbacks and support
+- Code Insttitute Team for their continuous support.
+    
