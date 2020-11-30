@@ -1,1 +1,1 @@
-web: gunicorn fabulous-fragrances.wsgi:application
+web: gunicorn fabulous.wsgi:application
