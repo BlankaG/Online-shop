@@ -51,6 +51,15 @@ body {
     border: 1px solid black;
 }
 
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -68,6 +77,11 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
+.bg-black {
+    background: #000 !important;
+}
+
 
 
 .overlay {
@@ -97,14 +111,15 @@ input[name='q']::placeholder {
     to{
         transform: scale(1.0);
     }
-/* -------------------------------- Media Queries */
+} 
 
-/* Slightly larger container on xl screens */
+
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
-}
+}  
+
 
 /* Allauth form formatting */
 
@@ -160,6 +175,7 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -185,3 +201,5 @@ input[name='q']::placeholder {
         height: calc(100vh - 125px);
     }
 }
+
+
