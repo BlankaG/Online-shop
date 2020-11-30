@@ -51,9 +51,7 @@ With the confirmation email when trying to register, the confirmation is shown i
 
 ### Credits
 
-- [Bootstrap Themes ](https://startbootstrap.com/themes/)
-- [Free-fronted CSS Cards](https://freefrontend.com/css-cards/)
-- [w3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- ### Project Butique Ado
 - [Code Institute solutions](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?activate_block_id=block-v1%3ACodeInstitute%2BFSF_102%2BQ1_2020%2Btype%40sequential%2Bblock%40d3188bf68530497aa5fba55d07a9d7d7)
 - [Code Institute materials](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/course/)
 
