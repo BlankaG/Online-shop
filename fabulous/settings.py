@@ -174,10 +174,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'public')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR, 'checkout/static'),
-    os.path.join(BASE_DIR, 'profiles/static'),
+    #os.path.join(BASE_DIR, 'checkout/static'),
+    #os.path.join(BASE_DIR, 'profiles/static'),
 )
-
 
 
 MEDIA_URL = '/media/'
